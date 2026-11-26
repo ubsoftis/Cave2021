@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -777886612, guid: 3ef717d8846e1d4489d396debd82f09f, type: 3}
+  m_Name: StandaloneCaveCharacterInputManagerProfile
+  m_EditorClassIdentifier: 
+  m_MoveHorizontalAxis: Cave_MoveHorizontal
+  m_MoveVerticalAxis: Cave_MoveVertical
+  m_SprintButton: Cave_MoveSprint
+  m_SprintMultiplier: 1.5
+  m_SneakButton: Cave_MoveSneak
+  m_SneakMultiplier: 0.5
+  m_RotateHorizontalAxis: Cave_RotateHorizontal
+  m_RotateHorizontalScale: 1
+  m_RotateVerticalAxis: Cave_RotateVertical
+  m_RotateVerticalScale: 1
+  m_RotateHorizontalMovementAxis: Cave_RotateHorizontal_Movement
+  m_RotateHorizontalMovementScale: 5
+  m_RotateVerticalMovementAxis: Cave_RotateVertical_Movement
+  m_RotateVerticalMovementScale: 5
+  m_RotateMovementHotKeyMouseButtonId: 1
+  m_ZoomAxis: Cave_Zoom
+  m_ZoomScale: 1
+  m_ZoomScrollAxis: Cave_Zoom_Scroll
+  m_ZoomScrollScale: 30

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2045374422, guid: 3ef717d8846e1d4489d396debd82f09f, type: 3}
+  m_Name: StandaloneCaveCharacterInputLegacyProfile
+  m_EditorClassIdentifier: 
+  m_MoveHorizontalAxis:
+    axisType: 2
+    keyCodePair:
+      positive: 100
+      negative: 97
+    mouseMovementPair:
+      hotKey: 0
+      mouseAxis: 0
+  m_MoveVerticalAxis:
+    axisType: 2
+    keyCodePair:
+      positive: 119
+      negative: 115
+    mouseMovementPair:
+      hotKey: 0
+      mouseAxis: 0
+  m_SprintButton:
+    butonType: 2
+    keyCode: 304
+    mouseButton: 0
+  m_SprintMultiplier: 1.5
+  m_SneakButton:
+    butonType: 2
+    keyCode: 306
+    mouseButton: 0
+  m_SneakMultiplier: 0.5
+  m_RotateHorizontalAxis:
+    axisType: 2
+    keyCodePair:
+      positive: 108
+      negative: 106
+    mouseMovementPair:
+      hotKey: 0
+      mouseAxis: 0
+  m_RotateHorizontalScale: 1
+  m_RotateVerticalAxis:
+    axisType: 2
+    keyCodePair:
+      positive: 105
+      negative: 107
+    mouseMovementPair:
+      hotKey: 0
+      mouseAxis: 0
+  m_RotateVerticalScale: 1
+  m_RotateHorizontalMovementAxis:
+    axisType: 1
+    keyCodePair:
+      positive: 0
+      negative: 0
+    mouseMovementPair:
+      hotKey: 2
+      mouseAxis: 1
+  m_RotateHorizontalMovementScale: 1
+  m_RotateVerticalMovementAxis:
+    axisType: 1
+    keyCodePair:
+      positive: 0
+      negative: 0
+    mouseMovementPair:
+      hotKey: 2
+      mouseAxis: 2
+  m_RotateVerticalMovementScale: 1
+  m_ZoomAxis:
+    axisType: 2
+    keyCodePair:
+      positive: 93
+      negative: 91
+    mouseMovementPair:
+      hotKey: 0
+      mouseAxis: 0
+  m_ZoomScale: 1
+  m_ZoomScrollAxis:
+    axisType: 1
+    keyCodePair:
+      positive: 0
+      negative: 0
+    mouseMovementPair:
+      hotKey: 0
+      mouseAxis: 3
+  m_ZoomScrollScale: 30

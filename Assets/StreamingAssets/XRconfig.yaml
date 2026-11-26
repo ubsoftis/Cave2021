@@ -1,0 +1,115 @@
+Version: 0.2
+trakers:
+  vrpnType: None
+  vrpnServerType: MCServer
+  IP: 127.0.0.1
+  Port: 3883
+  rigibodyTrake:
+    Head:
+      LinkName: Head@
+      ID: 0
+    Handle:
+      LinkName: Handle@
+      ID: 1
+caveCameraSetting:
+  IsStereo: true
+  Independence: false
+  Resolution: 1920*1080
+  Automatic: true
+  Height: 2
+  width: 3.555556
+  Environment: 3
+  ScreenSettings:
+    inverseLR: false
+    pd: 0.064
+    eyesOffset: &o0
+      x: 0
+      y: 0
+      z: 0
+    screenRoot:
+      position: *o0
+      eulerAngles: *o0
+      scale: 1
+    screens:
+    - display:
+        index: 0
+        viewport:
+          xMin: 0
+          yMin: 0.75
+          xMax: 1
+          yMax: 1
+      local:
+        position:
+          x: 0
+          y: 1
+          z: 1.777778
+        eulerAngles: *o0
+        scale: &o1
+          x: 3.555556
+          y: 2
+    - display:
+        index: 0
+        viewport:
+          xMin: 0
+          yMin: 0.5
+          xMax: 1
+          yMax: 0.75
+      local:
+        position:
+          x: 0
+          y: 0
+          z: 0.777778
+        eulerAngles:
+          x: 90
+          y: 0
+          z: 0
+        scale: *o1
+    - display:
+        index: 0
+        viewport:
+          xMin: 0
+          yMin: 0.25
+          xMax: 1
+          yMax: 0.5
+      local:
+        position:
+          x: -1.777778
+          y: 1
+          z: 0
+        eulerAngles:
+          x: 0
+          y: -90
+          z: 0
+        scale: *o1
+    - display:
+        index: 0
+        viewport:
+          xMin: 0
+          yMin: 0
+          xMax: 1
+          yMax: 0.25
+      local:
+        position:
+          x: 1.777778
+          y: 1
+          z: 0
+        eulerAngles:
+          x: 0
+          y: 90
+          z: 0
+        scale: *o1
+  Mode: None
+environmentSetting:
+  AdvancedSetting: false
+  screenDatas:
+  - &o2
+    Resolution:
+      x: 1920
+      y: 1080
+    Height: 2
+    width: 3.555556
+  - *o2
+  - *o2
+  - *o2
+  - *o2
+  - *o2
